@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#00FFFF</color>
+    <color name="green">#5DAb7E</color>
+    <color name="circlepageindicator_fill_color">#303F9F</color>
+    <color name="circlepageindicator_page_color">#303F9F</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- signal Indicator Colors -->
+    <color name="weak_signal">#FFFF00</color>
+    <color name="medium_signal">#FF8000</color>
+    <color name="strong_signal">#0C4413</color>
+</resources>

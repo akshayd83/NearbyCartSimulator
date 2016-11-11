@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CartViewOrderActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/cart_order_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Switch
+        android:id="@+id/order_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/random_order"/>
+
+    <Button
+        android:id="@+id/apply_cart_order"
+        android:layout_width="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/apply"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <com.woxthebox.draglistview.DragListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/drag_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

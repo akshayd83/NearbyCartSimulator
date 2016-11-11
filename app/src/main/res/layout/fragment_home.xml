@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".HomeActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/padding"
+        />
+    <ImageView
+        android:id="@+id/cart_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingBottom="@dimen/padding"/>
+    <TextView
+        android:id="@+id/cart_range"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/strength_text_layout_padding"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/signal_strength_weak"
+            android:background="@color/weak_signal"
+            android:text="@string/weak_strength"
+            android:layout_gravity="start"
+            style="@style/SignalStrengthText"/>
+        <TextView
+            android:id="@+id/signal_strength_medium"
+            android:text="@string/medium_strength"
+            android:background="@color/medium_signal"
+            style="@style/SignalStrengthText"/>
+        <TextView
+            android:id="@+id/signal_strength_strong"
+            android:background="@color/strong_signal"
+            android:text="@string/strong_strength"
+            android:textColor="@color/white"
+            android:layout_gravity="end"
+            style="@style/SignalStrengthText"/>
+    </LinearLayout>
+
+</LinearLayout>

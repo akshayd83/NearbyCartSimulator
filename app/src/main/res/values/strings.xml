@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CartSimulator</string>
+    <string name="action_settings">Settings</string>
+    <string name="carts_count">There are %1$d carts</string>
+
+
+    <!-- Signal Strength -->
+    <string name="signal_strength">Signal Strength : %1$d</string>
+    <string name="weak_strength">Weak</string>
+    <string name="medium_strength">Medium</string>
+    <string name="strong_strength">Strong</string>
+    <string-array name="cart_names">
+        <item>Fanta</item>
+        <item>Mix</item>
+        <item>Food</item>
+        <item>Chips</item>
+        <item>Icecream</item>
+        <item>Monster</item>
+        <item>Pepsi</item>
+        <item>Sandwich</item>
+        <item>7UP</item>
+        <item>Chocolates</item>
+    </string-array>
+    <string name="title_activity_cart_view_order">CartViewOrderActivity</string>
+    <string name="apply">apply</string>
+    <string name="random_order">Random order enabled</string>
+    <string name="updating_machines">Updating Machines</string>
+    <string name="updating_carts">Updating your nearby carts</string>
+</resources>
