@@ -40,6 +40,8 @@ Nearby Cart Simulator App
    
    Upon switching of the random order, user can re order the carts by drag and drop of list view elements.
      
+     
+     
 **Libraries: This project uses 5 Libraries**
 
 1)	DragListView Library: https://github.com/woxthebox/DragListView to allow drag and drop
