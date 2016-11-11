@@ -40,10 +40,16 @@ Nearby Cart Simulator App
    
    Upon switching of the random order, user can re order the carts by drag and drop of list view elements.
      
-**Libraries: This project uses 3 Libraries**
+**Libraries: This project uses 5 Libraries**
 
 1)	DragListView Library: https://github.com/woxthebox/DragListView to allow drag and drop
+
 2)	CircularPager Indicator by Jake Wharton: https://github.com/JakeWharton/ViewPagerIndicator
+
 3)	Android Material Refresh Library for Pull to refresh: https://github.com/android-cjj/Android-MaterialRefreshLayout
+
+4) Butterknife by `Square` for UI Dependency Injection
+
+5) Glide by Google to load images.
 
     
