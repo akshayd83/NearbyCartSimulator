@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".HomeActivity"
+            android:name="com.akshay.nearbycartsimulator.HomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CartViewOrderActivity"
+            android:name="com.akshay.nearbycartsimulator.CartViewOrderActivity"
             android:label="@string/title_activity_cart_view_order"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>

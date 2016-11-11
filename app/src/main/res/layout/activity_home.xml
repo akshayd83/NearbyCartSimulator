@@ -50,7 +50,7 @@
                 android:layout_weight="1"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-            <application.payrange.com.payrange.ui.CirclePageIndicator
+            <com.akshay.nearbycartsimulator.ui.CirclePageIndicator
                 android:id="@+id/indicator"
                 style="@style/PageIndicator"
                 android:clickable="true"
