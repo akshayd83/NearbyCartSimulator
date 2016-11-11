@@ -1,7 +1,7 @@
 ### NearbyCartSimulator
 Nearby Cart Simulator App
  
- ##Splash Screen
+ ## Splash Screen
    It shows number of Carts between 5-10 on Splash Screen
  
  ## Home Screen
