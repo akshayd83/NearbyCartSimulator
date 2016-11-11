@@ -7,16 +7,17 @@ Nearby Cart Simulator App
  
   **Home Screen**
   
-     Shows all the carts in View Pager with following information:
-     - Cart Name
-     - Cart Range
-     - Cart Signal Strength
-     - Indicator of Signal Strength
+  Shows all the carts in View Pager with following information:
+  - Cart Name
+  - Cart Range
+  - Cart Signal Strength
+  - Indicator of Signal Strength
        
-   **UI Components on Home Screen**
-      * Displayes Circular Pager Indicator `(By Jake Wharton)`
-      * FAB to allow user to re-order carts in certain order or in random order
-      * Pull to refresh component: This will refresh the cart strength and update the carts
+  **UI Components on Home Screen**
+   
+   * Displayes Circular Pager Indicator `(By Jake Wharton)`
+   * FAB to allow user to re-order carts in certain order or in random order
+   * Pull to refresh component: This will refresh the cart strength and update the carts
        
 
    **Cart Strength**
