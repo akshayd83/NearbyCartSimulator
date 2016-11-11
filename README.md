@@ -39,9 +39,17 @@ Nearby Cart Simulator App
    User can toggle between random and custom order.
    
    Upon switching of the random order, user can re order the carts by drag and drop of list view elements.
-     
-     
-     
+
+
+**API:**
+ 
+The application calls Random.org API as follows:
+ *	It makes call to https://www.random.org/integers/?num=1&min=1&max=100&col=1&base=10&format=plain&rnd=new in order get random strength.
+ *	The API calls are made Using Android AsyncTask Executor to do the parallel execution. The total number of tasks executed is equal to the number of carts.
+ *	For each task 3 API calls are made in order to simulate an average strength of the cart.
+ *	The Min and Max ar 1 and 100 respectively
+
+
 **Libraries: This project uses 5 Libraries**
 
 1)	DragListView Library: https://github.com/woxthebox/DragListView to allow drag and drop
