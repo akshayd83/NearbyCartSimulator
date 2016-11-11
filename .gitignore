@@ -16,3 +16,6 @@ build/
 /captures
 .externalNativeBuild
 secure.properties
+app/libs/
+app/src/main/res/mipmap-xxhdpi/
+app/src/main/res/mipmap-xxxhdpi/
